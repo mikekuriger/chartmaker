@@ -41,7 +41,8 @@ if /usr/bin/git diff --cached --quiet; then
 else
     log "Changes detected; committing"
     /usr/bin/git commit -m "auto-commit $DATE"
-    /usr/bin/git push origin HEAD:data
+    #/usr/bin/git push origin HEAD:data
+    /usr/bin/git push origin HEAD:main
     log "Changes pushed successfully"
 fi
 
