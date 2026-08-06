@@ -1,0 +1,24 @@
+Wall         - 5  6  7
+Sectional    -         8  9  10  11
+Terminal     -               10  11
+Grand_Canyon -               10  11
+Enroute_low  -         8  9  10  11
+
+zoom 13 is the most zoomed in, the app can zoom to level 15
+
+zoom 12 and 13 are actually zoom 11 tiles
+
+VFR:
+5  - Wall
+6  - Wall
+7  - Wall
+8  - Sectional
+9  - Sectional
+10 - Sectional/GC/Terminal
+11 - Sectional/GC/Terminal
+
+IFR:
+8  - Enroute_low
+9  - Enroute_low
+10 - Enroute_low
+11 - Enroute_low

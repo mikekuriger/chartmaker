@@ -1,0 +1,292 @@
+html, body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+    margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+  /* Apply styles here for screens 600px or narrower */
+}
+
+/* .application {
+    display: flex; 
+    justify-content: center; 
+}
+ */
+ 
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    flex-wrap: nowrap;
+    position:relative;
+    width: max-content;
+    left: 100px;
+}
+.application {
+    width: 50%;
+    margin: 0 auto;
+}
+.menu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	width: 400px;
+    /* display: inline-block; */
+	text-align: left;
+}
+.conflabel {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	width: 400px;
+    text-align: left;
+    position:relative;
+    top: -15px;
+    left: 0px;
+}
+.command {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	width: 30px;
+	text-align: left;
+}
+.label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	width: 150px;
+	text-align: right;
+}
+.table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+.listitem {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+    text-align: left;
+    position: relative;
+    width: 300px;
+    height: 18px;
+}
+.undobutton {
+    width: 24px;
+    height: 24px;
+    top: 4px;
+    position:relative;
+    margin-right: 2px;
+    z-index: 0;
+}
+.udimage {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -2px;
+    top: -3px;
+    margin-right: 2px;
+    z-index: 12;
+}
+.addbutton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+    background-color:lightgray;
+    color: black;
+	border-radius:10px; 
+    border-width: 1px;
+    padding:0px;
+    position:relative;
+    top: -54px;
+    left: 358px;
+    height: 38px;
+    width: 150px;
+}
+.addbutton:active {
+  transform: translateY(2px);
+  box-shadow: 0 5px #666;
+}
+.resetbutton {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+    text-align:center;
+    align-content: center;
+    background-color: lightgray;
+    color:black;
+	border-radius:10px;
+    border-width: 1px; 
+    padding:0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 38px;
+    width: 102px;
+}
+.resetbutton:active {
+  transform: translateY(2px); 
+  box-shadow: 0 5px #666; 
+}
+.removebutton {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+    background-color:lightgray;
+    color: black;
+	border-radius:10px; 
+    border-width: 1px;
+    padding:0px;
+	position: relative;
+    top: 0px;
+    left: 18px;
+    height: 38px;
+    width: 200px;
+}
+.removebutton:active {
+  transform: translateY(2px); 
+  box-shadow: 0 5px #666; 
+}
+.sendbutton {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+    background-color:blue;
+    color: #fff;
+	border-radius:10px; 
+    border-width: 1px;
+    padding:0px;
+    position: relative;
+    top: 0px;
+    left: 35px;
+    height: 38px;
+    width:165px;
+}
+.sendbutton:active {
+  transform: translateY(2px);
+  box-shadow: 0 5px #666;
+}
+.buttongroup {
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    top:0px;
+    left: 0px;
+    height:40px;
+    width: 480px;
+}
+.confwindow {
+    outline: 3px solid rgb(67, 67, 207);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    position: relative;
+    top: -10px;
+    left: -18;
+    height: 320px;
+    width: 513px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.commandtable {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    top: 0px;
+    left: 0px;
+    height: 300px;
+    width: 490px;
+    margin: 10px;
+    padding: 0px;
+}
+.tablerow {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: left;
+    height: 20px;
+    width: 480px;
+}
+.centeredcell {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align:center;
+    background-color: white;
+    height: 20px;
+    width: 480px;
+}
+
+/* These classes are for command table entries */
+.leftcell {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: left;
+    background-color: white;
+    border: 1px solid darkgreen;
+    color: black;
+    height: 20px;
+    width: 65%;
+}
+.rightcell {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin-right: 8px;
+    background-color: white;
+    border: 1px solid darkgreen;
+    overflow-y: hidden;
+    color: black;
+    height: 20px;
+    width: 35%;
+}
+.normal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: left;
+    background-color: white;
+    color: black;
+    height: 20px;
+    width: 480px;
+}
+.boldgreen {
+    font-weight: bold;
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+}
+.boldyellow {
+    font-weight: bold;
+    background-color: yellow;
+    color: black;
+}
+.boldred {
+    font-weight: bold;
+    background-color: red;
+    color: white;
+}
+.timingheader {
+    font-weight: bold;
+    background-color: lightgreen;
+    color: black;
+}
+.running {
+    animation: runningChart 3s infinite
+}
+.start-animation {
+    animation: colorChange 4s infinite; 
+}
+
+.stop-animation {
+  animation:  none !important;
+  transition: none !important;
+}
+
+/* For animations */
+@keyframes colorChange {
+    0% { background-color: darkgreen ; color: white;}
+    50% { background-color: yellow; color: black; }
+    100% { background-color: darkgreen; color: white;}
+}
+
+@keyframes runningChart {
+    0% { background-color: white; color: black; }
+    50% { background-color: lightgreen; color: black; }
+    100% { background-color: white; color: black; }
+}

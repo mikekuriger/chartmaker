@@ -1,0 +1,158 @@
+{   
+    "settings":
+    {
+        "attribution": "Aviation charts <a href='https://github.com/n129bz/chartmaker'>github.com/n129bz/chartmaker</a>",
+        "vfrdownloadtemplate": "https://aeronav.faa.gov/visual/<chartdate>/All_Files/<charttype>.zip",
+        "vfrindividualtemplate": "https://aeronav.faa.gov/visual/<chartdate>/sectional-files/<charttype>.zip",
+        "ifrdownloadtemplate": "https://aeronav.faa.gov/enroute/<chartdate>/<charttype>.zip",
+        "usvfrwallplanningtemplate": "https://aeronav.faa.gov/visual/<chartdate>/Planning/US_WallPlan.zip",
+
+        "renameworkarea": false,
+        "logtofile": false,
+        "cleanprocessfolders": false,
+
+        "outputgrayscale": false,
+        "tileimagequality" : 30,
+        "blendpixels" : 30,
+        "zoomrange" : "5-7",
+        "centerzoomlevel": "7",
+        "dbextension": "mbtiles",
+        "externaldbfolder": "",
+        "addoverviews": true,
+        "usecommandline": true,
+        "timezone": "America/Chicago",
+        "debug": true,
+        "httpport": 1962,
+        "wsport": 1970,
+        "webservermode": false,
+
+        "chartprocessindexes": [0,1,2,3,4,5,6,7],
+        "fullchartlist": [
+            ["Sectional", "vfr", ""],
+            ["Caribbean", "vfr", ""],
+            ["Grand_Canyon", "vfr", ""],
+            ["Terminal", "vfr", ""],
+            ["Helicopter", "vfr", ""],
+            ["DDECUS", "ifr", "Enroute_Low"],
+            ["DDECUS", "ifr", "Enroute_High"],
+            ["US_VFR_Wall_Planning", "vfr", ""]
+        ],
+        
+        "areachartlist": [
+            "Albuquerque",
+            "Anchorage",
+            "Atlanta",
+            "Bethel",
+            "Billings",
+            "Brownsville",
+            "Cape_Lisburne",
+            "Charlotte",
+            "Cheyenne",
+            "Chicago",
+            "Cincinnati",
+            "Cold_Bay",
+            "Dallas-Ft_Worth",
+            "Dawson",
+            "Denver",
+            "Detroit",
+            "Dutch_Harbor",
+            "El_Paso",
+            "Fairbanks",
+            "Great_Falls",
+            "Green_Bay",
+            "Halifax",
+            "Hawaiian_Islands",
+            "Houston",
+            "Jacksonville",
+            "Juneau",
+            "Kansas_City",
+            "Ketchikan",
+            "Klamath_Falls",
+            "Kodiak",
+            "Lake_Huron",
+            "Las_Vegas",
+            "Los_Angeles",
+            "McGrath",
+            "Memphis",
+            "Miami",
+            "Montreal",
+            "New_Orleans",
+            "New_York",
+            "Nome",
+            "Omaha",
+            "Phoenix",
+            "Point_Barrow",
+            "Salt_Lake_City",
+            "San_Antonio",
+            "San_Francisco",
+            "Seattle",
+            "Seward",
+            "St_Louis",
+            "Twin_Cities",
+            "Washington",
+            "Western_Aleutian_Islands",
+            "Wichita"
+        ],
+
+        "layertypeindex": 1,   
+        "layertypes": [
+            "baselayer", 
+            "overlay"
+        ],
+
+        "tiledriverindex": 0,
+        "tiledrivers": [
+            "png",
+            "jpeg",
+            "webp"
+        ],
+        "fullchartindexes": [
+            "Sectional",
+            "Caribbean",
+            "Grand_Canyon",
+            "Terminal", 
+            "Helicopter", 
+            "Enroute_Low",
+            "Enroute_High",
+            "US_VFR_Wall_Planning"
+        ],
+        "messagetypes": {
+            "info": { 
+               "type": "info",
+               "payload": "",
+               "css": ["normal"]
+            },
+            "timing": {
+                "type": "timing",
+                "payload": "",
+                "css": ["timingheader"]
+            },
+            "commandresponse": {
+                "type": "commandresponse",
+                "payload": "",
+                "css": ["boldgreen"]
+            },
+            "running": {
+                "type": "running",
+                "css": "runningchart",
+                "rowindex": -1
+            },
+            "complete": {
+                "type": "complete",
+                "payload": "",
+                "css":  "normal",
+                "rowindex": -1
+            },
+            "command": {
+                "type": "command",
+                "payload": "",
+                "css": ["normal"]
+            },
+            "settings": {
+                "type": "settings",
+                "payload": "",
+                "css": ["normal"]
+            }
+        }
+    }
+}

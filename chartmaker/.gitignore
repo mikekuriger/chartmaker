@@ -1,0 +1,10 @@
+
+**/.vscode
+**/node_modules
+**/workarea*
+**/chartcache
+**/mbutil
+**/tiledatabases
+**/charts
+/debug.log
+

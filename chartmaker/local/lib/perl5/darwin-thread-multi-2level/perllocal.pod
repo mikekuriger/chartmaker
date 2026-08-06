@@ -1,0 +1,22 @@
+=head2 Thu Jul 30 02:06:44 2026: C<Module> L<Modern::Perl|Modern::Perl>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/michaelkuriger/AndroidStudioProjects/chartmaker/chartmaker/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.20250607>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
