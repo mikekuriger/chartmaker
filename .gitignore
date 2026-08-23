@@ -37,3 +37,5 @@ chartmaker/chartcache/
 chartmaker/OLD/
 chartmaker/workarea/
 chartmaker/charts/
+MetarMap/scripts/build_tfrs/logs.sh
+MetarMap/scripts/.DS_Store
